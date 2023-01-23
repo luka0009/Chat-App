@@ -5,7 +5,6 @@
 }
 
 
-
 .menu {
     font-size: 18px;
     background-color: #a9bcfa;
@@ -157,6 +156,9 @@
                         color: white;
                         outline: none;
                         font-size: 18px;
+                        @include mobile {
+                            font-size: 12px;
+                        }
 
                         &::placeholder {
                             color: white;
@@ -458,3 +460,4 @@
     margin-bottom: 5px;
     height: 27px;
 }
+

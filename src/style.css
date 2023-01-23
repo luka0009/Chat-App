@@ -449,4 +449,11 @@
 .send-button {
   margin-bottom: 5px;
   height: 27px;
+}
+
+@media (max-width: 600px) {
+  .search-friends::placeholder {
+    font-size: 12px;
+  }
+
 }/*# sourceMappingURL=style.css.map */
